@@ -10,7 +10,7 @@
       <key>name</key>
       <string>keyword.quake</string>
       <key>match</key>
-      <string>\b(?:(and|contains|else|end|for|foreach|if|in|is|local|not|or|proc|readonly|return))\b</string>
+      <string>\b(and|contains|else|end|for|foreach|if|in|is|local|not|or|proc|readonly|return)\b</string>
     </dict>
     <dict>
       <key>name</key>
@@ -45,7 +45,7 @@
           <key>name</key>
           <string>constant.character.escape.quake</string>
           <key>match</key>
-          <string>(?:\\[0-7]{3}|\\[\\fnrt\"\'])</string>
+          <string>\\[0-7]{3}|\\[\\fnrt\"\']</string>
         </dict>
       </array>
     </dict>
