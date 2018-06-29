@@ -25,12 +25,8 @@
       <string>%.*$</string>
     </dict>
     <dict>
-      <key>name</key>
-      <string>comment.block.quake</string>
-      <key>begin</key>
-      <string>\/\*</string>
-      <key>end</key>
-      <string>\*\/</string>
+      <key>include</key>
+      <string>#block_comment</string>
     </dict>
     <dict>
       <key>name</key>
@@ -50,6 +46,25 @@
       </array>
     </dict>
   </array>
+  <key>repository</key>
+  <dict>
+    <key>block_comment</key>
+    <dict>
+      <key>name</key>
+      <string>comment.block.quake</string>
+      <key>begin</key>
+      <string>\/\*</string>
+      <key>end</key>
+      <string>\*\/</string>
+      <key>patterns</key>
+      <array>
+        <dict>
+          <key>include</key>
+          <string>#block_comment</string>
+        </dict>
+      </array>
+    </dict>
+  </dict>
   <key>scopeName</key>
   <string>source.quake</string>
   <key>uuid</key>
