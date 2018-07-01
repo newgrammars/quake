@@ -38,8 +38,6 @@
       <key>patterns</key>
       <array>
         <dict>
-          <key>name</key>
-          <string>constant.character.escape.quake</string>
           <key>match</key>
           <string>\\[0-7]{3}|\\[\\fnrt\"\']</string>
         </dict>
